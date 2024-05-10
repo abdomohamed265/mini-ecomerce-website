@@ -1,0 +1,95 @@
+*{
+    
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.header-links ul li {
+    display: inline-block;
+
+}
+.header-links ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    font-weight: 900;
+}
+.header-links ul li a i {
+    font-size: 10px;
+    color: gainsboro;
+}
+.bord{
+    border: 1px dashed gainsboro;
+    margin-top: 20px;
+}
+.row img{
+    position: relative;
+}
+.row .info{
+    position: absolute;
+    bottom: 90px;
+    left: 90px;
+    
+}
+.row .info h2{
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gainsboro;
+}
+.row .info button{
+    padding: 15px 30px;
+    background-color: transparent;
+    border-color: gainsboro;
+    color: gainsboro;
+    margin-top: 20px;
+    transition: 1s;
+    font-weight: 900;
+    font-family:  sans-serif;
+    letter-spacing: 2px;
+}
+.row .info button:hover{
+    background-color: gainsboro;
+    color: black;
+    letter-spacing: 3px;
+    transform: scale(1.1);
+}
+.row .info1{
+    position: absolute;
+    bottom: 270px;
+    text-align: center;
+    left: 750px;
+    
+}
+.row .info2{
+   position: absolute;
+   bottom: 270px;
+   text-align: center;
+   right: 90px;
+}
+.row .info3{
+    position: absolute;
+    bottom: -15px;
+    text-align: center;
+    left: 770px;
+}
+.row .info4{
+    position: absolute;
+    bottom: -15px;
+    text-align: center;
+    right: 70px;
+}
+.row h2, p{
+    color: #fff;
+}
+.btn:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+input{
+    padding: 10px 40px;
+}
+::placeholder{
+    color: gainsboro;
+}
